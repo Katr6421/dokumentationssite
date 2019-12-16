@@ -1,0 +1,77 @@
+/***** generelt ****/
+
+img {
+    width: 100%;
+
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    background-color: #ddffe2;
+
+}
+
+figcaption {
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+section {
+    margin: 5vw;
+    max-width: 1200px;
+}
+
+
+/***** generelt slut ****/
+
+/*Menu start*/
+
+header {
+    position: fixed;
+    /*    background-image: linear-gradient(rgba(0, 0, 0, 0.83), rgba(0, 0, 0, 0));*/
+    width: 100vw;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 15px;
+
+}
+
+header nav a {
+    margin: 5px;
+    padding: 0 1rem;
+
+    background-color: #ffffff;
+    border: 5px solid #042904;
+
+}
+
+/*********** Skrifter **************/
+
+h1 {
+    font-size: 3rem;
+    color: #042904;
+    margin: 2vw;
+}
+
+h2 {
+
+    font-size: 1rem;
+    color: #042904;
+}
+
+section {
+    padding: 2vw;
+    border: 10px solid #042904;
+    background-color: #ffffff;
+
+}
